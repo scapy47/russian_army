@@ -14,3 +14,9 @@ created a file to log and show it as PoW that project doesn't use ai.
 > use this a template how this fill will be used
 
 ---
+
+@scapy47
+
+created devenv file cause i use nixos with devenv so i need that file to install packages required for this project.
+
+---
