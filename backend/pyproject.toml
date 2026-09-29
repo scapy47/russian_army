@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "scapy47", email = "134828740+scapy47@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.142.0",
+]
+
+[project.scripts]
+backend = "main.py"
+
+[tool.uv]
+package = false
+
