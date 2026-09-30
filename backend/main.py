@@ -1,10 +1,13 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
 
-@app.get("/")
-def read_root():
+app.frontend("/", directory="../frontend/dist")
+
+@app.get("/api")
+def read_api():
     return {"Hello": "World"}
 
 
