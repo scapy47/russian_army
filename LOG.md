@@ -50,3 +50,10 @@ data from sever maybe going to use htmx or tenstack querry but i would like to t
 cause i know backend team will like it.
 
 ---
+
+@scapy47
+
+i asked everyone and they are ok with going full astro so hack yeah we are going full astro.
+with cloudflare as backend
+
+---
