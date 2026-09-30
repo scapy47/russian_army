@@ -1,7 +1,11 @@
+packages:
+  - "."
+
 allowBuilds:
   esbuild: true
   sharp: true
   workerd: true
+
 minimumReleaseAgeExclude:
   - '@cloudflare/workerd-darwin-64@1.20260930.2'
   - '@cloudflare/workerd-darwin-arm64@1.20260930.2'
