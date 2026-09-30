@@ -14,10 +14,5 @@
       pnpm.install.enable = true;
     };
 
-    python = {
-      enable = true;
-      uv.enable = true;
-    };
   };
-
 }
