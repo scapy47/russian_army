@@ -20,6 +20,7 @@
     "@types/react-dom": "^19.3.0",
     "astro": "^7.3.5",
     "astro-seo": "^1.2.0",
+    "astro-tunnel": "^0.1.9",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "svelte": "^5.57.1",
