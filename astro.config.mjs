@@ -9,11 +9,13 @@ import tailwindcss from '@tailwindcss/vite';
 
 import cloudflare from '@astrojs/cloudflare';
 
+import tunnel from 'astro-tunnel';
+
 // https://astro.build/config
 export default defineConfig({
   adapter: cloudflare(),
 
-  integrations: [react(), svelte()],
+  integrations: [react(), svelte(), tunnel()],
 
   vite: {
     plugins: [tailwindcss()]

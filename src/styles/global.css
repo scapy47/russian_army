@@ -1,7 +1,28 @@
 @import "tailwindcss";
 
+@theme {
+    --color-a1: #F2B6EE;
+    --color-a2: #BFA7F2;
+    --color-a3: #261E59;
+    --color-a4: #2D2A8C;
+    --color-a5: #4541BF;
+
+    --color-a6: #261c5a;
+    --color-a7: #f7e5fa;
+    --color-a8: #4a328e;
+    --color-a9: #cca6ed;
+    --color-a10: #926bc9;
+}
+
+@utility bevel {
+    corner-shape: bevel;
+}
 
 @layer base {
+    :root {
+        color-scheme: light dark;
+    }
+
     html, body {
         background-color: light-dark(var(--color-white), var(--color-black));
         color: light-dark(var(--color-black), var(--color-white));
