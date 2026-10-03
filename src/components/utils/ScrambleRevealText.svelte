@@ -27,7 +27,7 @@ let txt = $state(text);
 			intervalRef = setInterval(() => {
 				txt = text
 					.split("")
-					.map((char, index) => {
+					.map((char: string , index: number) => {
 						if (index < runCount) return char;
 						return charVec[Math.floor(Math.random() * charVec.length)];
 					})
@@ -55,8 +55,7 @@ let txt = $state(text);
 	});
 </script>
 
-<!-- 👇 THIS IS WHERE YOU ADD IT -->
-<svelte:element
+<!-- <svelte:element
 	this={tag}
 	class={className}
 	id={id}
@@ -66,6 +65,18 @@ let txt = $state(text);
 	on:mouseleave={animation}
 	on:touchstart={animation}
 	on:touchend={animation}
+>
+	{txt}
+</svelte:element> -->
+
+<svelte:element
+	this={tag}
+	class={className}
+	id={id}
+	on:click={animation}
+	on:mouseenter={animation}
+	on:focus={animation}
+	on:touchstart={animation}
 >
 	{txt}
 </svelte:element>
