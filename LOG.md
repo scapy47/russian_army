@@ -64,3 +64,8 @@ based on some inspirations, it's going to be like an game
 
 ---
 
+@scapy47
+
+droped the view mpa idea cause i cant mix both type of view transitions
+
+---
