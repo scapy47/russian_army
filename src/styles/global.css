@@ -1,20 +1,22 @@
 @import "tailwindcss";
 
 @theme {
-    --color-1: #F2B6EE;
-    --color-2: #BFA7F2;
-    --color-3: #261E59;
-    --color-4: #2D2A8C;
-    --color-5: #4541BF;
+    --color-a1: #F2B6EE;
+    --color-a2: #BFA7F2;
+    --color-a3: #261E59;
+    --color-a4: #2D2A8C;
+    --color-a5: #4541BF;
 
-    --color-6: #261c5a;
-    --color-7: #f7e5fa;
-    --color-8: #4a328e;
-    --color-9: #cca6ed;
-    --color-10: #926bc9;
+    --color-a6: #261c5a;
+    --color-a7: #f7e5fa;
+    --color-a8: #4a328e;
+    --color-a9: #cca6ed;
+    --color-a10: #926bc9;
 }
 
-/* @utility surface {} */
+@utility bevel {
+    corner-shape: bevel;
+}
 
 @layer base {
     :root {
