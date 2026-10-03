@@ -18,6 +18,12 @@ export default defineConfig({
   integrations: [react(), svelte(), tunnel()],
 
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    ssr: {
+      optimizeDeps: {
+        noDiscovery: true,
+        exclude: ['some-problematic-package']
+      }
+    }
   }
 });
