@@ -1,12 +1,28 @@
 <script lang="ts">
-  import { onMount, onDestroy } from "svelte";
-	
-	let { text, className, id, animateOnLoad, tag = "span" } = $props();
+	import { onMount, onDestroy } from "svelte";
+	import type { SvelteHTMLElements } from "svelte/elements";
 
-let txt = $state(text);
-	
+	type props = {
+		text: string;
+		className?: string;
+		id?: string;
+		animateOnLoad?: boolean;
+		tag?: keyof SvelteHTMLElements;
+	};
+
+	let {
+		text,
+		className,
+		id,
+		animateOnLoad,
+		tag = "span",
+	}: props = $props();
+
+	// svelte-ignore state_referenced_locally
+	let txt = $state(text);
+
 	let start = 0x0061;
-	let end = 0x007A; 
+	let end = 0x007a;
 
 	const charVec = (() => {
 		const arr: string[] = [];
@@ -14,26 +30,31 @@ let txt = $state(text);
 			arr.push(String.fromCharCode(i));
 		}
 		return arr;
-	})(); 
+	})();
 
 	let runCount = 0;
 	let intervalRef: ReturnType<typeof setInterval> | null = null;
 
 	function animation() {
+		console.log("triggered");
 
-		console.log("triggered"); 
-		
 		if (!intervalRef) {
 			intervalRef = setInterval(() => {
 				txt = text
 					.split("")
-					.map((char: string , index: number) => {
-						if (index < runCount) return char;
-						return charVec[Math.floor(Math.random() * charVec.length)];
+					.map((char: string, index: number) => {
+						if (index < runCount)
+							return char;
+						return charVec[
+							Math.floor(
+								Math.random() *
+									charVec.length,
+							)
+						];
 					})
 					.join("");
 
-				console.log("txt:", txt);
+				// console.log("txt:", txt);
 
 				runCount += 1 / 3;
 
@@ -42,7 +63,7 @@ let txt = $state(text);
 					intervalRef = null;
 					runCount = 0;
 				}
-			}, 30);
+			}, 20);
 		}
 	}
 
@@ -55,28 +76,16 @@ let txt = $state(text);
 	});
 </script>
 
-<!-- <svelte:element
-	this={tag}
-	class={className}
-	id={id}
-	on:click={animation}
-	on:mouseenter={animation}
-	on:mouseover={animation}
-	on:mouseleave={animation}
-	on:touchstart={animation}
-	on:touchend={animation}
->
-	{txt}
-</svelte:element> -->
-
 <svelte:element
 	this={tag}
+	role="presentation"
 	class={className}
-	id={id}
-	on:click={animation}
-	on:mouseenter={animation}
-	on:focus={animation}
-	on:touchstart={animation}
+	{id}
+	onclick={animation}
+	onmouseenter={animation}
+	onfocus={animation}
+	ontouchstart={animation}
 >
 	{txt}
 </svelte:element>
+
