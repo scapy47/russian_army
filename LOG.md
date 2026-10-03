@@ -57,3 +57,10 @@ i asked everyone and they are ok with going full astro so hack yeah we are going
 with cloudflare as backend
 
 ---
+
+@scapy47
+
+based on some inspirations, it's going to be like an game
+
+---
+
