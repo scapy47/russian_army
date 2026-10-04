@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, fontProviders } from 'astro/config';
 
 import react from '@astrojs/react';
 
@@ -16,6 +16,12 @@ export default defineConfig({
   adapter: cloudflare(),
 
   integrations: [react(), svelte(), tunnel()],
+
+  fonts: [{
+    provider: fontProviders.fontsource(),
+    name: "Roboto",
+    cssVariable: "--font-roboto",
+  }],
 
   vite: {
     plugins: [tailwindcss()],
