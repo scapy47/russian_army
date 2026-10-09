@@ -13,8 +13,6 @@ import tunnel from 'astro-tunnel';
 
 // https://astro.build/config
 export default defineConfig({
-  // adapter: cloudflare(),
-
   integrations: [react(), svelte(), tunnel()],
 
   fonts: [{
