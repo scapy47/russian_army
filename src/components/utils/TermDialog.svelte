@@ -18,7 +18,7 @@ class="w-full h-full max-w-none max-h-none flex justify-center items-cente bg-tr
 	bind:this={dialog}
 >
 	<div
-		class="bevel rounded-br-4xl rounded-tl-4xl border-a2 dark:border-a10 p-6 overflow-clip backdrop-blur-3xl {classvalue}"
+		class="bevel rounded-br-4xl rounded-tl-4xl border-a2 dark:border-a10 py-6 overflow-clip backdrop-blur-3xl {classvalue}"
 	>
 		{@render children?.()}
 	</div>

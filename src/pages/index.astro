@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Background from '../components/AbstractBg.svelte';
 import StartQuiz from '../components/StartQuiz.svelte';
+import ScrambleRevealText from '../components/utils/ScrambleRevealText.svelte';
 
 ---
 
@@ -9,11 +10,16 @@ import StartQuiz from '../components/StartQuiz.svelte';
 	<main>
 		<section class="h-svh w-full grid grid-rows-3">
 			<Background />
-			<div class="row-span-2">
+			<div class="row-span-2 z-10 flex flex-col justify-center">
+					<h1 class="text-7xl text-a1"> Find your Game play </h1>
+					<ScrambleRevealText tag={'h2'} className='text-9xl inline' speed={40} text='style' animateOnLoad client:idle />
 			</div>
 			<div class="row-start-3 place-items-center">
 				<StartQuiz client:idle/>
 			</div>
 		</section>
+		<section></section>
+		<footer>
+		</footer>
 	</main>
 </Layout>

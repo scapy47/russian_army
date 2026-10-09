@@ -8,6 +8,7 @@
 		id?: string;
 		animateOnLoad?: boolean;
 		tag?: keyof SvelteHTMLElements;
+		speed: number;
 	};
 
 	let {
@@ -16,10 +17,10 @@
 		id,
 		animateOnLoad,
 		tag = "span",
+		speed = 20,
 	}: props = $props();
 
-	// svelte-ignore state_referenced_locally
-	let txt = $state(text);
+	let txt = $derived(text);
 
 	let start = 0x0061;
 	let end = 0x007a;
@@ -36,7 +37,7 @@
 	let intervalRef: ReturnType<typeof setInterval> | null = null;
 
 	function animation() {
-		console.log("triggered");
+		// console.log("triggered");
 
 		if (!intervalRef) {
 			intervalRef = setInterval(() => {
@@ -63,7 +64,7 @@
 					intervalRef = null;
 					runCount = 0;
 				}
-			}, 20);
+			}, speed);
 		}
 	}
 

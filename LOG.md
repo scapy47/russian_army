@@ -69,3 +69,9 @@ based on some inspirations, it's going to be like an game
 droped the view mpa idea cause i cant mix both type of view transitions
 
 ---
+
+@scapy47
+
+so basicaly me team imploded and i have to do everything myself 
+
+---

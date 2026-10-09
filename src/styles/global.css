@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import 'layerchart/shadcn-svelte.css';
 
 @theme {
     --color-a1: #F2B6EE;

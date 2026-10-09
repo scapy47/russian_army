@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "question": "Are you more comfortable, as a player in an online game:",
+    "options": [
+      {
+        "text": "Talking with friends in a tavern",
+        "type": "Socialiser",
+        "icon": "MessageSquare"
+      },
+      {
+        "text": "Out hunting orcs by yourself for experience?",
+        "type": "Achiever",
+        "icon": "Sword"
+      }
+    ],
+    "icon": "Users"
+  },
+  {
+    "id": 2,
+    "question": "Which do you enjoy more in quests?",
+    "options": [
+      {
+        "text": "Getting involved in the storyline",
+        "type": "Explorer",
+        "icon": "BookOpen"
+      },
+      {
+        "text": "Getting the rewards at the end",
+        "type": "Achiever",
+        "icon": "Gift"
+      }
+    ],
+    "icon": "Compass"
+  },
+  {
+    "id": 3,
+    "question": "Would you rather be:",
+    "options": [
+      {
+        "text": "Popular?",
+        "type": "Socialiser",
+        "icon": "Star"
+      },
+      {
+        "text": "Wealthy?",
+        "type": "Achiever",
+        "icon": "Coins"
+      }
+    ],
+    "icon": "Coins"
+  },
+  {
+    "id": 4,
+    "question": "Which do you enjoy more in an online game?",
+    "options": [
+      {
+        "text": "Getting the latest gossip",
+        "type": "Socialiser",
+        "icon": "MessageCircle"
+      },
+      {
+        "text": "Getting a new item",
+        "type": "Achiever",
+        "icon": "Package"
+      }
+    ],
+    "icon": "MessageCircle"
+  },
+  {
+    "id": 5,
+    "question": "Which would you rather have, as a player in an online game?",
+    "options": [
+      {
+        "text": "A private channel, over which you and your friends can communicate",
+        "type": "Socialiser",
+        "icon": "Radio"
+      },
+      {
+        "text": "Your own house, worth millions of gold coins",
+        "type": "Achiever",
+        "icon": "Home"
+      }
+    ],
+    "icon": "Home"
+  },
+  {
+    "id": 6,
+    "question": "Which would you enjoy more as an online game player?",
+    "options": [
+      {
+        "text": "Running your own tavern?",
+        "type": "Socialiser",
+        "icon": "Store"
+      },
+      {
+        "text": "Making your own maps of the world, then selling them",
+        "type": "Explorer",
+        "icon": "Map"
+      }
+    ],
+    "icon": "Map"
+  },
+  {
+    "id": 7,
+    "question": "What's more important in an online game to you?",
+    "options": [
+      {
+        "text": "The number of people",
+        "type": "Socialiser",
+        "icon": "Users"
+      },
+      {
+        "text": "The number of areas to explore",
+        "type": "Explorer",
+        "icon": "Globe"
+      }
+    ],
+    "icon": "Globe"
+  },
+  {
+    "id": 8,
+    "question": "What's more important to you?",
+    "options": [
+      {
+        "text": "The quality of roleplaying in an online game",
+        "type": "Socialiser",
+        "icon": "Theater"
+      },
+      {
+        "text": "The uniqueness of the features, and game mechanic",
+        "type": "Explorer",
+        "icon": "Sparkles"
+      }
+    ],
+    "icon": "Sparkles"
+  },
+  {
+    "id": 9,
+    "question": "You are being chased by a monster in an online game. Do you:",
+    "options": [
+      {
+        "text": "Ask a friend for help in killing it",
+        "type": "Socialiser",
+        "icon": "UserPlus"
+      },
+      {
+        "text": "Hide somewhere you know the monster won't follow?",
+        "type": "Explorer",
+        "icon": "EyeOff"
+      }
+    ],
+    "icon": "ShieldAlert"
+  },
+  {
+    "id": 10,
+    "question": "You're a player in an online game, and about to go into an unknown dungeon. You have your choice of one more person for your party. Do you bring:",
+    "options": [
+      {
+        "text": "A bard, who's a good friend of yours and who's great for entertaining you and your friends",
+        "type": "Socialiser",
+        "icon": "Music"
+      },
+      {
+        "text": "A wizard, to identify the items that you find there?",
+        "type": "Explorer",
+        "icon": "Wand2"
+      }
+    ],
+    "icon": "UserPlus"
+  },
+  {
+    "id": 11,
+    "question": "Someone has PK'ed you (killed you in player vs. player combat). Do you want to:",
+    "options": [
+      {
+        "text": "Find out why, and try to convince them not to do it again",
+        "type": "Socialiser",
+        "icon": "MessageSquare"
+      },
+      {
+        "text": "Plot your revenge?",
+        "type": "Killer",
+        "icon": "Flame"
+      }
+    ],
+    "icon": "Skull"
+  },
+  {
+    "id": 12,
+    "question": "Which is more exciting?",
+    "options": [
+      {
+        "text": "A well-roleplayed scenario",
+        "type": "Socialiser",
+        "icon": "Heart"
+      },
+      {
+        "text": "A deadly battle",
+        "type": "Killer",
+        "icon": "Swords"
+      }
+    ],
+    "icon": "Swords"
+  },
+  {
+    "id": 13,
+    "question": "Which would you enjoy more?",
+    "options": [
+      {
+        "text": "Winning a duel with another player",
+        "type": "Killer",
+        "icon": "Trophy"
+      },
+      {
+        "text": "Getting accepted by a clan (a group of other players)",
+        "type": "Socialiser",
+        "icon": "ShieldCheck"
+      }
+    ],
+    "icon": "Award"
+  },
+  {
+    "id": 14,
+    "question": "What's worse:",
+    "options": [
+      {
+        "text": "To be without power",
+        "type": "Killer",
+        "icon": "ZapOff"
+      },
+      {
+        "text": "To be without friends?",
+        "type": "Socialiser",
+        "icon": "HeartOff"
+      }
+    ],
+    "icon": "HeartOff"
+  },
+  {
+    "id": 15,
+    "question": "Would you rather:",
+    "options": [
+      {
+        "text": "Hear what someone has to say",
+        "type": "Socialiser",
+        "icon": "Ear"
+      },
+      {
+        "text": "Show them the sharp blade of your axe?",
+        "type": "Killer",
+        "icon": "Axe"
+      }
+    ],
+    "icon": "Axe"
+  },
+  {
+    "id": 16,
+    "question": "In an online game, a new area opens up. Which do you look forward to more?",
+    "options": [
+      {
+        "text": "Exploring the new area, and finding out its history",
+        "type": "Explorer",
+        "icon": "Scroll"
+      },
+      {
+        "text": "Being the first to get the new equipment from the area",
+        "type": "Achiever",
+        "icon": "Shield"
+      }
+    ],
+    "icon": "MapPin"
+  },
+  {
+    "id": 17,
+    "question": "In an online game, would you rather be known as:",
+    "options": [
+      {
+        "text": "Someone who can run from any two points in the world, and really knows their way around",
+        "type": "Explorer",
+        "icon": "Footprints"
+      },
+      {
+        "text": "The person with the best, most unique equipment in the game?",
+        "type": "Achiever",
+        "icon": "Crown"
+      }
+    ],
+    "icon": "Footprints"
+  },
+  {
+    "id": 18,
+    "question": "Would you rather:",
+    "options": [
+      {
+        "text": "Become a hero faster than your friends",
+        "type": "Achiever",
+        "icon": "TrendingUp"
+      },
+      {
+        "text": "Know more secrets than your friends?",
+        "type": "Explorer",
+        "icon": "KeyRound"
+      }
+    ],
+    "icon": "KeyRound"
+  },
+  {
+    "id": 19,
+    "question": "Do you tend to:",
+    "options": [
+      {
+        "text": "Know things no one else does",
+        "type": "Explorer",
+        "icon": "Lightbulb"
+      },
+      {
+        "text": "Have items no one else does?",
+        "type": "Achiever",
+        "icon": "Gem"
+      }
+    ],
+    "icon": "Package"
+  },
+  {
+    "id": 20,
+    "question": "Which would you rather do:",
+    "options": [
+      {
+        "text": "Solve a riddle no one else has solved",
+        "type": "Explorer",
+        "icon": "HelpCircle"
+      },
+      {
+        "text": "Getting to a certain experience level faster than anyone else?",
+        "type": "Achiever",
+        "icon": "Zap"
+      }
+    ],
+    "icon": "HelpCircle"
+  },
+  {
+    "id": 21,
+    "question": "In an online game, would rather join a clan of:",
+    "options": [
+      {
+        "text": "Scholars",
+        "type": "Explorer",
+        "icon": "BookOpen"
+      },
+      {
+        "text": "Assassins?",
+        "type": "Killer",
+        "icon": "Crosshair"
+      }
+    ],
+    "icon": "BookOpen"
+  },
+  {
+    "id": 22,
+    "question": "Would you rather win:",
+    "options": [
+      {
+        "text": "A trivia contest",
+        "type": "Explorer",
+        "icon": "Award"
+      },
+      {
+        "text": "An arena battle?",
+        "type": "Killer",
+        "icon": "Trophy"
+      }
+    ],
+    "icon": "Trophy"
+  },
+  {
+    "id": 23,
+    "question": "If you're alone in an area, do you think:",
+    "options": [
+      {
+        "text": "It's safe to explore",
+        "type": "Explorer",
+        "icon": "Compass"
+      },
+      {
+        "text": "You'll have to look elsewhere for prey?",
+        "type": "Killer",
+        "icon": "Target"
+      }
+    ],
+    "icon": "Target"
+  },
+  {
+    "id": 24,
+    "question": "You learn that another player is planning your demise. Do you:",
+    "options": [
+      {
+        "text": "Go to an area your opponent is unfamiliar with and prepare there",
+        "type": "Explorer",
+        "icon": "Map"
+      },
+      {
+        "text": "Attack them before he attacks you?",
+        "type": "Killer",
+        "icon": "ShieldAlert"
+      }
+    ],
+    "icon": "Crosshair"
+  },
+  {
+    "id": 25,
+    "question": "You meet a new player. Do you think of them as:",
+    "options": [
+      {
+        "text": "Someone who can appreciate your knowledge of the game",
+        "type": "Explorer",
+        "icon": "Eye"
+      },
+      {
+        "text": "As potential prey?",
+        "type": "Killer",
+        "icon": "Skull"
+      }
+    ],
+    "icon": "Eye"
+  },
+  {
+    "id": 26,
+    "question": "In an online game, would you rather:",
+    "options": [
+      {
+        "text": "Have a sword twice as powerful as any other in the game",
+        "type": "Achiever",
+        "icon": "Sword"
+      },
+      {
+        "text": "Be the most feared person in the game?",
+        "type": "Killer",
+        "icon": "Flame"
+      }
+    ],
+    "icon": "Flame"
+  },
+  {
+    "id": 27,
+    "question": "In an online game, would you be more prone to brag about:",
+    "options": [
+      {
+        "text": "How many other players you've killed",
+        "type": "Killer",
+        "icon": "Skull"
+      },
+      {
+        "text": "Your equipment?",
+        "type": "Achiever",
+        "icon": "Shield"
+      }
+    ],
+    "icon": "Shield"
+  },
+  {
+    "id": 28,
+    "question": "Would you rather have:",
+    "options": [
+      {
+        "text": "A spell to damage other players",
+        "type": "Killer",
+        "icon": "Zap"
+      },
+      {
+        "text": "A spell that increases the rate at which you gain experience points?",
+        "type": "Achiever",
+        "icon": "TrendingUp"
+      }
+    ],
+    "icon": "Zap"
+  },
+  {
+    "id": 29,
+    "question": "Would you rather have:",
+    "options": [
+      {
+        "text": "Two levels of experience",
+        "type": "Achiever",
+        "icon": "ChevronUp"
+      },
+      {
+        "text": "An amulet that increases the damage you do against other players by 10%?",
+        "type": "Killer",
+        "icon": "Gem"
+      }
+    ],
+    "icon": "Gem"
+  },
+  {
+    "id": 30,
+    "question": "When playing a video game, is it more fun to:",
+    "options": [
+      {
+        "text": "Have the highest score on the list",
+        "type": "Achiever",
+        "icon": "BarChart"
+      },
+      {
+        "text": "Beat your best friend one-on-one?",
+        "type": "Killer",
+        "icon": "Users"
+      }
+    ],
+    "icon": "BarChart"
+  }
+]
