@@ -16,6 +16,23 @@
 		if (open) dialog.showModal();
 		else if (dialog.open) dialog.close();
 	});
+
+	const controler = new AbortController();
+	const { signal } = controler;
+
+	onMount(() => {
+		dialog.addEventListener(
+			"close",
+			(_e) => {
+				if (dialog.returnValue === "cancel") {
+					dialog.close();
+				}
+			},
+			{ signal },
+		);
+
+		return () => controler.abort();
+	});
 </script>
 
 <dialog
