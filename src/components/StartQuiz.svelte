@@ -5,6 +5,7 @@
 		Users,
 		Sword,
 		GamepadDirectional,
+		X,
 	} from "@lucide/svelte";
 	import ScrambleRevealText from "./utils/ScrambleRevealText.svelte";
 	import Button from "./utils/Button.svelte";
@@ -151,7 +152,6 @@
 				<div
 					class="h-full w-full col-span-2 lg:row-span-2 lg:col-span-1 px-6 flex flex-col justify-around overflow-x-scroll"
 				>
-					<Button fn={close}>close</Button>
 					{#each types as { icon: Icon, name, desc }}
 						<h3
 							class="flex items-center gap-2 mt-4 text-2xl lg:text-4xl"
@@ -162,6 +162,11 @@
 						<p>{desc}</p>
 					{/each}
 				</div>
+				<Button
+					fn={close}
+					class="absolute top-0 right-0 mr-4 mt-4"
+					><X /></Button
+				>
 			</Term>
 		{/if}
 	</Dialog>
