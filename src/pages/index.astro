@@ -12,7 +12,8 @@ import ScrambleRevealText from '../components/utils/ScrambleRevealText.svelte';
 			<Background />
 			<div class="row-span-2 z-10 flex flex-col justify-center overflow-auto mx-auto">
 					<h1 class="text-7xl text-a1">What’s Your</h1>
-					<ScrambleRevealText tag={'h2'} className='text-9xl font-mono inline' speed={40} text='Player Type?' animateOnLoad client:idle />
+					<ScrambleRevealText tag={'h2'} className='text-8xl font-mono' speed={40} text='Player' animateOnLoad client:idle />
+					<ScrambleRevealText tag={'h2'} className='text-8xl font-mono' speed={40} text='Type?' animateOnLoad client:idle />
 			</div>
 			<div class="row-start-3 place-items-center">
 				<StartQuiz client:idle/>
