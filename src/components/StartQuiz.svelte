@@ -75,7 +75,7 @@
 <div class="root">
 	<Dialog open={dopen}>
 		{#if step === "a"}
-			<Button class="expand w-48" fn={start}>start</Button>
+			<Button class="expand w-48" fn={start}>Find out</Button>
 		{:else if step === "b"}
 			<Term
 				class="expand w-full md:w-11/12 h-4/5 border-4 m-auto grid font-mono"
