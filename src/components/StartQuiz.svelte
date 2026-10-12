@@ -112,7 +112,7 @@
 			</Term>
 		{:else}
 			<Term
-				class="expand w-11/12 h-4/5 border-8 m-auto grid grid-cols-2 grid-rows-2"
+				class="expand w-11/12 h-4/5 border-8 m-auto grid grid-cols-[60%_1fr] grid-rows-[60%_1fr]"
 			>
 				<LineChart
 					class={"col-span-2 lg:row-span-2 lg:col-span-1"}
