@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "question": "Are you more comfortable, as a player in an online game:",
+    "question": "What is most enjoyable part of multiplayer games?",
     "options": [
       {
-        "text": "Talking with friends in a tavern",
+        "text": "Talking with friends",
         "type": "Socialiser",
         "icon": "MessageSquare"
       },
       {
-        "text": "Out hunting orcs by yourself for experience?",
+        "text": "Completing achievements",
         "type": "Achiever",
         "icon": "Sword"
       }
@@ -154,10 +154,10 @@
   },
   {
     "id": 10,
-    "question": "You're a player in an online game, and about to go into an unknown dungeon. You have your choice of one more person for your party. Do you bring:",
+    "question": "You're about to go into an unknown dungeon. You have your choice of one more person for your party.",
     "options": [
       {
-        "text": "A bard, who's a good friend of yours and who's great for entertaining you and your friends",
+        "text": "friend of yours and who's great for entertaining you and your friends",
         "type": "Socialiser",
         "icon": "Music"
       },
@@ -171,15 +171,15 @@
   },
   {
     "id": 11,
-    "question": "Someone has PK'ed you (killed you in player vs. player combat). Do you want to:",
+    "question": "Someone killed you in player vs. player combat.",
     "options": [
       {
-        "text": "Find out why, and try to convince them not to do it again",
+        "text": "Find and convince them not to do it again",
         "type": "Socialiser",
         "icon": "MessageSquare"
       },
       {
-        "text": "Plot your revenge?",
+        "text": "Plot your revenge",
         "type": "Killer",
         "icon": "Flame"
       }
@@ -213,7 +213,7 @@
         "icon": "Trophy"
       },
       {
-        "text": "Getting accepted by a clan (a group of other players)",
+        "text": "Getting accepted by a clan",
         "type": "Socialiser",
         "icon": "ShieldCheck"
       }
@@ -222,7 +222,7 @@
   },
   {
     "id": 14,
-    "question": "What's worse:",
+    "question": "What's worse?",
     "options": [
       {
         "text": "To be without power",
@@ -239,7 +239,7 @@
   },
   {
     "id": 15,
-    "question": "Would you rather:",
+    "question": "Would you rather",
     "options": [
       {
         "text": "Hear what someone has to say",
@@ -256,7 +256,7 @@
   },
   {
     "id": 16,
-    "question": "In an online game, a new area opens up. Which do you look forward to more?",
+    "question": "a new area opens up. Which do you look forward to more?",
     "options": [
       {
         "text": "Exploring the new area, and finding out its history",
@@ -273,7 +273,7 @@
   },
   {
     "id": 17,
-    "question": "In an online game, would you rather be known as:",
+    "question": "would you rather be known as:",
     "options": [
       {
         "text": "Someone who can run from any two points in the world, and really knows their way around",
@@ -341,7 +341,7 @@
   },
   {
     "id": 21,
-    "question": "In an online game, would rather join a clan of:",
+    "question": "would rather join a clan of:",
     "options": [
       {
         "text": "Scholars",
@@ -426,7 +426,7 @@
   },
   {
     "id": 26,
-    "question": "In an online game, would you rather:",
+    "question": "would you rather:",
     "options": [
       {
         "text": "Have a sword twice as powerful as any other in the game",
@@ -443,7 +443,7 @@
   },
   {
     "id": 27,
-    "question": "In an online game, would you be more prone to brag about:",
+    "question": "would you be more prone to brag about:",
     "options": [
       {
         "text": "How many other players you've killed",
