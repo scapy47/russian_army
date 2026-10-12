@@ -1,4 +1,5 @@
 <script>
+	import { ArrowLeft } from "@lucide/svelte";
 	import bartleTestQuestions from "../assets/bartleTestQuestions.json";
 	import Button from "./utils/Button.svelte";
 
@@ -19,11 +20,17 @@
 			playerProfile[typeOfPlayer]++;
 		}
 	}
+
+	const prev = async () => {
+		document.startViewTransition(() => {
+			if (currentQ) currentQ = currentQ - 1;
+		});
+	};
 </script>
 
 <div class="w-full h-full grid grid-rows-[5%_60%_1fr]">
 	<div class="flex justify-center items-center">
-		<div class="w-3/4">
+		<div class="w-3/4 flex justify-center items-center">
 			<div class="h-2 rounded-4xl w-full bg-a3 overflow-clip">
 				<div
 					style="width: {(currentQ /
@@ -32,6 +39,12 @@
 					class="bg-a1 w-1/12 h-full"
 				></div>
 			</div>
+			<Button
+				fn={prev}
+				class="w-20 h-8 ml-6 flex items-center justify-center"
+			>
+				<ArrowLeft />
+			</Button>
 		</div>
 	</div>
 	<div class="flex items-center justify-center">

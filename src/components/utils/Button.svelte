@@ -11,7 +11,7 @@
 </script>
 
 <button
-	class="{classValue} bg-a2 dark:bg-a10 p-2 bevel rounded-br-2xl rounded-tl-2xl"
+	class="{classValue} bg-a2 dark:bg-a10 p-2 bevel rounded-br-2xl rounded-tl-2xl border-a7 dark:border-a1 border-2"
 	onclick={fn}
 	{...rest}
 >

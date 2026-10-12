@@ -75,3 +75,9 @@ droped the view mpa idea cause i cant mix both type of view transitions
 so basicaly me team imploded and i have to do everything myself 
 
 ---
+
+@scapy47
+
+frament code into components
+
+---
