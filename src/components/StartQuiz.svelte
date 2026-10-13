@@ -41,6 +41,8 @@
 			dopen = false;
 		});
 
+	const dialogClose = () => window.location.replace("/");
+
 	const data = $derived(
 		Object.entries(profile).map(([name, value]) => ({
 			name,
@@ -73,7 +75,7 @@
 </script>
 
 <div class="root">
-	<Dialog open={dopen}>
+	<Dialog close={dialogClose} open={dopen}>
 		{#if step === "a"}
 			<Button class="expand w-48" fn={start}>Find out</Button>
 		{:else if step === "b"}

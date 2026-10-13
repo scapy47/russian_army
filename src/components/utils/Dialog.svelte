@@ -6,9 +6,15 @@
 		children?: Snippet;
 		class?: ClassValue;
 		open?: boolean;
+		close?: () => {};
 	};
 
-	let { children, class: classvalue, open = false }: Props = $props();
+	let {
+		children,
+		class: classvalue,
+		open = false,
+		close,
+	}: Props = $props();
 
 	let dialog: HTMLDialogElement;
 
@@ -22,10 +28,11 @@
 
 	onMount(() => {
 		dialog.addEventListener(
-			"close",
-			(_e) => {
+			"cancel",
+			(e) => {
+				e.preventDefault();
 				if (dialog.returnValue === "cancel") {
-					dialog.close();
+					close?.();
 				}
 			},
 			{ signal },
@@ -36,8 +43,8 @@
 </script>
 
 <dialog
-	class:flex={open}
-	class="contents absolute w-full h-full max-w-none max-h-none justify-center items-cente bg-transparent {classvalue}"
+	class:h-full={open}
+	class="h-fit flex absolute w-full max-w-none max-h-none justify-center items-center bg-transparent {classvalue}"
 	bind:this={dialog}
 >
 	{@render children?.()}
